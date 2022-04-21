@@ -1,0 +1,10 @@
+TP = 721
+FN = 525
+FP = 123
+TN = 8630
+Accuracy = 0.93519352%
+Precision = 0.854
+Recall = 0.579
+F-Measure = 0.690
+Error Rate = 0.854
+RI = 5.855
