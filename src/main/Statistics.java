@@ -2,8 +2,6 @@ package main;
 
 import java.util.List;
 
-import static main.NLP.resultPath;
-import static main.NLP.rootPath;
 
 
 public class Statistics {
@@ -11,8 +9,8 @@ public class Statistics {
     public static void evaluate() {
 
         double tp = .0, fp = .0, tn = .0, fn = .0;
-        String results = resultPath + "results.txt";
-        String oraclePath = rootPath + "origin/labels";
+        String results = "results/results.txt";
+        String oraclePath = "data/labels";
         List<String> result = FileHelper.readFileToLines(results);
         List<String> oracle = FileHelper.readFileToLines(oraclePath);
         for (int i = 1; i < result.size(); i++) {
@@ -46,7 +44,7 @@ public class Statistics {
 
 
         System.out.println(text);
-        FileHelper.writeStringToFile(resultPath + "evaluation.csv", text.toString());
+        FileHelper.writeStringToFile("results/evaluation.csv", text.toString());
     }
 
 }

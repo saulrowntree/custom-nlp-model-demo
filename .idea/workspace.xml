@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="" />
+    <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/dic/nlpprops.prop" beforeDir="false" afterPath="$PROJECT_DIR$/data/stanfordProps.prop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/dic/stopwords.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/nlp/combined less negatives.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/nlp/combined.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/combined.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/nlp/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/nlp/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/origin/comments" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/origin/labels" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/origin/labels copy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp_data/origin/projects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/NLP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/NLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/NLP.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,11 +84,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583467052349" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220421_0001" />
+    <property name="com.google.cloudcode.ide_session_index" value="20220428_0000" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,18 +100,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/exp_data/origin" />
+      <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/exp_data/nlp" />
+      <recent name="$PROJECT_DIR$/exp_data/origin" />
       <recent name="$PROJECT_DIR$/exp_data/tm" />
       <recent name="C:\Users\GZQ\Desktop\Git\MAT\src" />
-      <recent name="C:\Users\GZQ\Desktop\Git\MAT\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/exp_data" />
       <recent name="$PROJECT_DIR$/exp_data/nlp" />
       <recent name="$PROJECT_DIR$/exp_data/tm" />
       <recent name="C:\Users\GZQ\Desktop\Git\MAT" />
-      <recent name="C:\Users\GZQ\Desktop\Git\MAT\result\single_approach" />
-      <recent name="C:\Users\GZQ\Desktop\Git\MAT\result" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -187,6 +202,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.NLP" />
+      <item itemvalue="Application.Pattern" />
+      <item itemvalue="Application.Settings" />
+      <item itemvalue="Application.TM" />
+      <item itemvalue="Application.Main" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -269,11 +291,6 @@
           <url>jar://$PROJECT_DIR$/lib/stanford-classifier.jar!/edu/stanford/nlp/classify/ColumnDataClassifier.class</url>
           <line>351</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/NLP.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <breakpoint type="java-exception">
           <properties class="java.lang.RuntimeException" package="java.lang" />

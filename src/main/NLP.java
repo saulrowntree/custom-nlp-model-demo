@@ -9,9 +9,9 @@ import main.FileHelper;
 import java.util.List;
 
 public class NLP {
-    public static String rootPath = "./exp_data/";
-    public static String methodPath = rootPath + "nlp/";
-    public static String resultPath = "./results/";
+//    public static String rootPath = "./exp_data/";
+//    public static String methodPath = rootPath + "nlp/";
+//    public static String resultPath = "./results/";
 
 
     public void prepareData() {
@@ -19,9 +19,9 @@ public class NLP {
         StringBuilder train = new StringBuilder();
 
         // build data of single project
-        String allData = methodPath + "combined.csv";
-        String testData = methodPath + "test.txt";
-        String trainData = methodPath + "train.txt";
+        String allData = "data/combined.csv";
+        String testData = "data/test.txt";
+        String trainData = "data/train.txt";
         // read all data in
         List<String> lines = FileHelper.readFileToLines(allData);
         // remove the csv header line
@@ -58,12 +58,12 @@ public class NLP {
     public void predict() throws Exception {
         prepareData();
 
-        String trainFile = methodPath + "train.txt";
-        String testFile = methodPath + "test.txt";
+        String trainFile = "data/train.txt";
+        String testFile = "data/test.txt";
         String resultFile = "results/results.txt";
         StringBuilder text = new StringBuilder();
 
-        ColumnDataClassifier cdc = new ColumnDataClassifier(rootPath + "dic/nlpprops.prop");
+        ColumnDataClassifier cdc = new ColumnDataClassifier("data/stanfordProps.prop");
         cdc.trainClassifier(trainFile);
 
         for (String line : ObjectBank.getLineIterator(testFile, "utf-8")) {
