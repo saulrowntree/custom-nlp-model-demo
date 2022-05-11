@@ -10,26 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/NLP Demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/googleDataset.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/satd_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/satd_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NLPDemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoreTables.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MAT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/FileHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/NLP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/Statistics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/Evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Evaluation.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/NLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/NLP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/~$reTables.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +84,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true"
   }
 }]]></component>
@@ -263,7 +246,7 @@
       <workItem from="1651431723534" duration="615000" />
       <workItem from="1651448850847" duration="1222000" />
       <workItem from="1652267282374" duration="457000" />
-      <workItem from="1652267755042" duration="843000" />
+      <workItem from="1652267755042" duration="1208000" />
     </task>
     <task id="LOCAL-00001" summary="add jar">
       <created>1608041585872</created>

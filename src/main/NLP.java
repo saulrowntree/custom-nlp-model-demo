@@ -6,13 +6,13 @@ import edu.stanford.nlp.objectbank.ObjectBank;
 
 import java.util.List;
 
-public class NLP {
+public abstract class NLP {
 
-    final int TEST_SET_SIZE = 10000;
-    String testData = "data/test.txt";
-    String trainData = "data/train.txt";
+    static final int TEST_SET_SIZE = 10000;
+    static String testData = "data/test.txt";
+    static String trainData = "data/train.txt";
 
-    public void prepareData() {
+    public static void prepareData() {
         StringBuilder test = new StringBuilder();
         StringBuilder train = new StringBuilder();
 
@@ -53,7 +53,7 @@ public class NLP {
     }
 
 
-    public void predict() throws Exception {
+    public static void predict() throws Exception {
         prepareData();
 
         String resultFile = "results/results.txt";
