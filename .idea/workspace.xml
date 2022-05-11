@@ -10,20 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/NLP Demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/googleDataset.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/satd_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/satd_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/dic/nlpprops.prop" beforeDir="false" afterPath="$PROJECT_DIR$/data/stanfordProps.prop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/dic/stopwords.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/nlp/combined less negatives.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/nlp/combined.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/combined.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/nlp/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/nlp/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/train.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/origin/comments" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/origin/labels" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/origin/labels copy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_data/origin/projects" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NLPDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoreTables.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/satd_jar/MAT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MAT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MAT/main/NLP.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MAT/main/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/Evaluation.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/Evaluation.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FileHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/NLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/NLP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$reTables.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/lib/stanford-classifier.jar!/edu/stanford/nlp/objectbank/ObjectBank.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,31 +85,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ACTIVE_CLOUD_PROJECT_ACCOUNT" value="saulrowntree99@gmail.com" />
-    <property name="ACTIVE_CLOUD_PROJECT_ID" value="sasd-nlp" />
-    <property name="ACTIVE_CLOUD_PROJECT_NAME" value="SASD NLP" />
-    <property name="ACTIVE_CLOUD_PROJECT_NUMBER" value="164183830373" />
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583467052349" />
-    <property name="com.google.cloudcode.ide_session_index" value="20220428_0000" />
-    <property name="go.format.on.save.advertiser.fired" value="true" />
-    <property name="go.formatter.settings.were.checked" value="true" />
-    <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ACTIVE_CLOUD_PROJECT_ACCOUNT": "saulrowntree99@gmail.com",
+    "ACTIVE_CLOUD_PROJECT_ID": "sasd-nlp",
+    "ACTIVE_CLOUD_PROJECT_NAME": "SASD NLP",
+    "ACTIVE_CLOUD_PROJECT_NUMBER": "164183830373",
+    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.google.cloudcode.ide_session_index": "20220511_0001",
+    "go.import.settings.migrated": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ruby.rails.projectView.checked": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data" />
@@ -114,10 +121,17 @@
       <recent name="C:\Users\GZQ\Desktop\Git\MAT" />
     </key>
   </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -130,7 +144,7 @@
     </configuration>
     <configuration name="NLP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.NLP" />
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -143,7 +157,7 @@
     </configuration>
     <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.methods.Pattern" />
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -156,7 +170,7 @@
     </configuration>
     <configuration name="Settings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Settings" />
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -169,7 +183,7 @@
     </configuration>
     <configuration name="TM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.methods.TM" />
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -181,7 +195,7 @@
       </method>
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="MAT" />
+      <module name="NLPDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -241,6 +255,15 @@
       <workItem from="1648456624584" duration="17000" />
       <workItem from="1648551982834" duration="175000" />
       <workItem from="1650557688468" duration="678000" />
+      <workItem from="1651240405658" duration="128000" />
+      <workItem from="1651240639250" duration="105000" />
+      <workItem from="1651240823878" duration="27000" />
+      <workItem from="1651240863215" duration="35000" />
+      <workItem from="1651251579413" duration="638000" />
+      <workItem from="1651431723534" duration="615000" />
+      <workItem from="1651448850847" duration="1222000" />
+      <workItem from="1652267282374" duration="457000" />
+      <workItem from="1652267755042" duration="843000" />
     </task>
     <task id="LOCAL-00001" summary="add jar">
       <created>1608041585872</created>
@@ -283,6 +306,10 @@
     <MESSAGE value="modify readme.md" />
     <MESSAGE value="ignore" />
     <option name="LAST_COMMIT_MESSAGE" value="ignore" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

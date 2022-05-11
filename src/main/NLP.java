@@ -3,33 +3,31 @@ package main;
 import edu.stanford.nlp.classify.ColumnDataClassifier;
 import edu.stanford.nlp.ling.Datum;
 import edu.stanford.nlp.objectbank.ObjectBank;
-import main.Statistics;
-import main.FileHelper;
 
 import java.util.List;
 
 public class NLP {
-//    public static String rootPath = "./exp_data/";
-//    public static String methodPath = rootPath + "nlp/";
-//    public static String resultPath = "./results/";
 
+    final int TEST_SET_SIZE = 10000;
+    String testData = "data/test.txt";
+    String trainData = "data/train.txt";
 
     public void prepareData() {
         StringBuilder test = new StringBuilder();
         StringBuilder train = new StringBuilder();
 
-        // build data of single project
+        // The locations of our various data files
         String allData = "data/combined.csv";
-        String testData = "data/test.txt";
-        String trainData = "data/train.txt";
-        // read all data in
+
+        // Contains our combined data
         List<String> lines = FileHelper.readFileToLines(allData);
-        // remove the csv header line
+
+        // Removes our CSV Column Header line
         lines.remove(0);
 
-        // Iterate over the first 10% of the allData List<String>
+
         for (int i = 0; i < lines.size(); i++) {
-            // If the line is empty, ignore it -- to avoid errors
+            // Ignore empty lines, thus avoiding NullPointerExceptions
             if (lines.get(i).isEmpty()) continue;
 
             // Split the line into data and label
@@ -44,10 +42,10 @@ public class NLP {
             } catch (ArrayIndexOutOfBoundsException e) {
                 continue;
             }
-            if (i < 10000)
-                test.append(label).append("\t ").append(comment).append("\n");
-            else
-                train.append(label).append("\t ").append(comment).append("\n");
+            // For the first 10% of our dataset, create the test set
+            if (i < TEST_SET_SIZE) test.append(label).append("\t ").append(comment).append("\n");
+                // With the rest, create our training set
+            else train.append(label).append("\t ").append(comment).append("\n");
         }
         // Write this test data to a file.
         FileHelper.writeStringToFile(testData, test.toString());
@@ -58,17 +56,20 @@ public class NLP {
     public void predict() throws Exception {
         prepareData();
 
-        String trainFile = "data/train.txt";
-        String testFile = "data/test.txt";
         String resultFile = "results/results.txt";
         StringBuilder text = new StringBuilder();
 
+        // Instantiate the classifer
         ColumnDataClassifier cdc = new ColumnDataClassifier("data/stanfordProps.prop");
-        cdc.trainClassifier(trainFile);
+        // Train the classifier using our training data
+        cdc.trainClassifier(trainData);
 
-        for (String line : ObjectBank.getLineIterator(testFile, "utf-8")) {
+        // For each piece of training data
+        for (String line : ObjectBank.getLineIterator(testData, "utf-8")) {
+            // Classify it using our model
             Datum<String, String> d = cdc.makeDatumFromLine(line);
-            System.out.printf("%s  ==>  %s (%.4f)%n", line, cdc.classOf(d), cdc.scoresOf(d).getCount(cdc.classOf(d)));
+            // Print the correct label, the line, and our classification of that label, along with a score (confidence)
+//            System.out.printf("%s  ==>  %s (%.4f)%n", line, cdc.classOf(d), cdc.scoresOf(d).getCount(cdc.classOf(d)));
             if (cdc.classOf(d).equals("WITHOUT_CLASSIFICATION")) text.append("0").append("\n");
             else text.append("1").append("\n");
 
