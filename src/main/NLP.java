@@ -73,10 +73,11 @@ public class NLP {
             if (cdc.classOf(d).equals("WITHOUT_CLASSIFICATION")) text.append("0").append("\n");
             else text.append("1").append("\n");
 
-
+            // write the output StringBuilder to the results file
             FileHelper.writeStringToFile(resultFile, text.toString());
         }
 
+        // Calculate and print the evaluation metrics
         Statistics.evaluate();
     }
 }
