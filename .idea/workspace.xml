@@ -9,10 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/NLP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/NLP.java" afterDir="false" />
-    </list>
+    <list default="true" id="b29025d0-07dd-4366-8ca2-30e086e32547" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -246,7 +242,7 @@
       <workItem from="1651431723534" duration="615000" />
       <workItem from="1651448850847" duration="1222000" />
       <workItem from="1652267282374" duration="457000" />
-      <workItem from="1652267755042" duration="1208000" />
+      <workItem from="1652267755042" duration="1449000" />
     </task>
     <task id="LOCAL-00001" summary="add jar">
       <created>1608041585872</created>
